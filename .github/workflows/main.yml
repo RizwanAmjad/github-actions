@@ -2,9 +2,9 @@ name: React CI
 
 on:
   push:
-    branches: 
-      - "master"
-      
+    branches:
+      - "main"
+
 jobs:
   build:
     runs-on: ubuntu-latest
@@ -13,8 +13,3 @@ jobs:
       - run: "cd react-app"
       - run: "npm install"
       - run: "npm run build"
-        
-
-
-    
-    
