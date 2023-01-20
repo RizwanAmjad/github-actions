@@ -11,6 +11,6 @@ jobs:
     steps:
       - uses: actions/checkout@v3
       - uses: actions/setup-node@v3
-      - run: "cd react-app"
+      - run: "cd react-app/"
       - run: "npm install"
       - run: "npm run build"
